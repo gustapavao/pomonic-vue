@@ -1,0 +1,24 @@
+@import './base.css';
+
+#app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+
+}
+
+@media (hover: hover) {
+
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}

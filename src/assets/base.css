@@ -1,0 +1,43 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+/* semantic color variables for this project */
+:root{
+  --normal-main-color: #FFF2F2;
+  --normal-second-color: #471515;
+  --normal-third-color: #FF4C4C26;
+  --normal-bg-button-color: #FF4C4CB5;
+  --break-main-color: #4DDA6E26;
+  --break-second-color: #14401D;
+  --break-third-color: rgba(77, 218, 110, 0.15);
+  --break-bg-button-color: rgba(77, 218, 110, 0.62);
+  --long-main-color: #4DDA6E26;
+  --long-second-color: #153047;
+  --long-third-color: rgba(76, 172, 255, 0.15);
+  --long-bg-button-color: rgba(76, 172, 255, 0.62);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--normal-main-color);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
