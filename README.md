@@ -79,7 +79,3 @@ Feedback and contributions are welcome! If you would like to contribute to the d
 ## License
 
 Distributed under the [MIT License](LICENSE).
-
----
-
-Feel free to adjust or expand this README as needed!
